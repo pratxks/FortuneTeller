@@ -74,7 +74,7 @@ public class FortuneTellerFrame extends JFrame
 
         Font headerLabelFont  = new Font(Font.MONOSPACED,  Font.BOLD, 36);
 
-        fortuneTellerIcon = new ImageIcon("src/FortuneTeller1.jpg");
+        fortuneTellerIcon = new ImageIcon("src/FortuneTeller1_Medium.jpg");
         fortuneTellerLabel = new JLabel("Fortune Teller", fortuneTellerIcon, JLabel.CENTER);
         fortuneTellerLabel.setFont(headerLabelFont);
         fortuneTellerLabel.setVerticalTextPosition(JLabel.BOTTOM);
@@ -88,7 +88,7 @@ public class FortuneTellerFrame extends JFrame
         fortuneDisplayPanel = new Panel();
 
         Font textAreaFont  = new Font(Font.SERIF,  Font.BOLD, 22);
-        fortuneDisplayArea = new JTextArea(7, 50);
+        fortuneDisplayArea = new JTextArea(12, 50);
         fortuneDisplayArea.setFont(textAreaFont);
         fortuneDisplayArea.setEditable(false);
         fortuneDisplayPane = new JScrollPane(fortuneDisplayArea);
@@ -108,7 +108,7 @@ public class FortuneTellerFrame extends JFrame
 
         fortuneControlPanel.setLayout(fortuneControlLayout);
 
-        Font buttonFont  = new Font(Font.SANS_SERIF,  Font.BOLD, 18);
+        Font buttonFont  = new Font(Font.SANS_SERIF,  Font.BOLD, 22);
         fortuneReaderButton = new JButton("Read My Fortune!");
         fortuneReaderButton.setFont(buttonFont);
 		
